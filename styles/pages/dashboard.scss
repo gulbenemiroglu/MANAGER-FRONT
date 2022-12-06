@@ -1,0 +1,23 @@
+#dashboard {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  gap: 10px;
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    button {
+      margin-right: 0;
+      margin-left: auto;
+      width: fit-content;
+
+      &::before {
+        content: "+";
+        margin-right: 5px;
+      }
+    }
+  }
+}

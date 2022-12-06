@@ -1,0 +1,15 @@
+#task-column {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  gap: 10px;
+  border: 1px solid darkgray;
+  border-radius: 16px 16px 32px 32px;
+  width: 350px !important;
+
+  .title {
+    text-align: center;
+    font-family: "Arial";
+    font-weight: bold;
+  }
+}

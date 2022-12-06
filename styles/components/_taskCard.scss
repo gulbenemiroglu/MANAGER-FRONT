@@ -1,0 +1,30 @@
+#task-card {
+  .task-header {
+    display: flex;
+    .card-title {
+      max-width: 350px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      flex: 1;
+    }
+  }
+
+  .card-text {
+    max-width: 360px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    min-height: 25px;
+  }
+
+  .card-footer {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+
+    .badge {
+      height: 25px;
+    }
+  }
+}
